@@ -34,7 +34,7 @@ docker tag python-jupyter chalakahasantha/python-jupyter:v1.0
 - `python-jupyter` is the name of your local Docker image.
 - `chalakahasantha/python-jupyter:v1.0` is the new tag, where `chalakahasantha` is your Docker Hub username, `python-jupyter` is the repository name, and `v1.0` is the version tag.
 
-![Tagging Docker Image](images/docker_tag.png)
+
 
 ### Step 3: Push Your Docker Image to Docker Hub
 
@@ -44,10 +44,27 @@ Now that your image is tagged correctly, you can push it to Docker Hub using the
 docker push chalakahasantha/python-jupyter:v1.0
 ```
 
+
 This command uploads your Docker image to Docker Hub under your account in the `chalakahasantha/python-jupyter` repository with the `v1.0` tag.
 
-![Pushing Docker Image](images/docker_push.png)
+![Docker Login](images/docker_login.png)
+
+This command uploads your Docker image to Docker Hub under your account in the `chalakahasantha/python-jupyter` repository with the `v1.0` tag.
+
+### Pulling the Docker Image
+
+Anyone who wants to use your Docker image can pull it from Docker Hub using the following command:
+
+```bash
+docker pull chalakahasantha/python-jupyter:v1.0
+```
+
+This command downloads the `chalakahasantha/python-jupyter:v1.0` Docker image to their local machine.
+
+
 
 ### Verify the Image on Docker Hub
 
 Once the image is successfully pushed, you can verify its presence by logging in to Docker Hub and navigating to your repository. Your Docker image should be listed there with the specified tag.
+
+![Pushing Docker Image](images/docker_hub.png)
