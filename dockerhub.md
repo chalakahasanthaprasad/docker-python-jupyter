@@ -1,4 +1,4 @@
-# Docker Image Push Guide
+# 🚀 Docker Image Push Guide
 
 This guide provides step-by-step instructions to push your custom Docker image to Docker Hub. By following these steps, you will be able to share your Docker images publicly or privately via Docker Hub.
 
@@ -18,8 +18,6 @@ docker login
 ```
 
 After running this command, you will be prompted to enter your Docker Hub username and password. Once logged in successfully, you should see a confirmation message indicating that the login was successful.
-
-![Docker Login](images/docker_login.png)
 
 ### Step 2: Tag Your Docker Image
 
@@ -47,13 +45,13 @@ docker push chalakahasantha/python-jupyter:v1.0
 
 This command uploads your Docker image to Docker Hub under your account in the `chalakahasantha/python-jupyter` repository with the `v1.0` tag.
 
-![Docker Login](images/docker_login.png)
+![Docker Login](images/docker_push.png)
 
 This command uploads your Docker image to Docker Hub under your account in the `chalakahasantha/python-jupyter` repository with the `v1.0` tag.
 
-### Pulling the Docker Image
+### Pulling the My Docker Image 😊
 
-Anyone who wants to use your Docker image can pull it from Docker Hub using the following command:
+Anyone who wants to use my Docker image can pull it from Docker Hub using the following command:
 
 ```bash
 docker pull chalakahasantha/python-jupyter:v1.0
@@ -68,3 +66,5 @@ This command downloads the `chalakahasantha/python-jupyter:v1.0` Docker image to
 Once the image is successfully pushed, you can verify its presence by logging in to Docker Hub and navigating to your repository. Your Docker image should be listed there with the specified tag.
 
 ![Pushing Docker Image](images/docker_hub.png)
+
+### Enjoy Code 😎
