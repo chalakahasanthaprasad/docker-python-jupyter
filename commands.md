@@ -1,4 +1,4 @@
-## Docker Commands for Python and JupyterLab
+## 🚀 Docker Commands for Python and JupyterLab
 
 ### Pull the Python Image
 To get the Python 3.8 slim image from Docker Hub:
@@ -145,4 +145,5 @@ Open your browser and go to:
 http://localhost:8585
 ```
 
+### Enjoy the code! 😎
 ---
