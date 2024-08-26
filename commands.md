@@ -145,5 +145,5 @@ Open your browser and go to:
 http://localhost:8585
 ```
 
-### Enjoy Code 😎
+### Enjoy the code! 😎
 ---

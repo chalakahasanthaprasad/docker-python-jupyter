@@ -67,4 +67,4 @@ Once the image is successfully pushed, you can verify its presence by logging in
 
 ![Pushing Docker Image](images/docker_hub.png)
 
-### Enjoy Code 😎
+### Enjoy the code! 😎
