@@ -1,6 +1,7 @@
 ## 🚀 Docker Commands for Python and JupyterLab
 
 ### Pull the Python Image
+![Pushing Docker Image](images/Screenshot_1-Install%20Python%20Image.png)
 To get the Python 3.8 slim image from Docker Hub:
 ```bash
 docker pull python:3.8-slim
